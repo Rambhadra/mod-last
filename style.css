@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my1{
+    width: 300px;
+    height: 30px;
+    
+}
+.box1{
+    margin: 20px;
+    padding: 30px;
+}
+.box2{
+    margin-top: -12%;
+    padding: 50px; 
+}
+div{
+    padding: 20px;
+}
+.cn2 {
+    align-content: center;
+    justify-content: center;
+    right: 0;
+    padding: 10px;
+    
+    position: absolute;
+    color: black;
+}
+.cn3{
+    background-color: white;
+    border: none;
+    padding: 10px;
+    
+    
+    position: absolute;
+    color: black; 
+}
+.cnt{
+   width: 300px;
+     padding: 10px;
+}
+.my5{
+    position: relative;
+}
+ .ions{
+    left: 0;
+    margin-left: 20px;
+    position: absolute;
+}
+.my6{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clt{
+    width: 300px;
+    height: 30px; 
+    left: 0;
+}
+.wrapper{
+    height: 10px;
+    width: 50px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    border: 1px solid black;
+    
+}
+.wrapper span{
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+}
+.my8 .my9{
+    display: none;
+}
+.my8 label{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 30px;
+    background:rgb(190, 188, 188);
+    border-radius: 20px;
+}
+.my8 label:before{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    content: "";
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #eee;
+    border-radius: 50%;
+
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 50%;
+    
+    }
+    .box1{
+        width: 60%;
+    }
+    .box2{
+        width: 40%%;
+    }
+}
